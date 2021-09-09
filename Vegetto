@@ -1,3 +1,3 @@
 import random
-serpière = input("Choisis un nombre entre", str(randint(0, 100)), "et", str(randint(0, 100)))
+serpière = input("Choisis un nombre entre " + str(random.randint(0, 100)) + " et " + str(random.randint(0, 100)))
 print("J'ai la flemme de coder le programme qui regarde si t'as perdu mais je pense que c'est le cas.")
